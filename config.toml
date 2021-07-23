@@ -119,12 +119,12 @@ name = "Home"
 
 [[menu.main]]
 weight = 3
-url = "about"
+url = "/about"
 name = "About+Contact"
 
 [[menu.main]]
 weight = 2
-url = "blog"
+url = "/blog"
 name = "Blog"
 
 #[[menu.main]]
@@ -178,17 +178,17 @@ name = "Blog"
 ############################# Footer Menu ########################
 [[menu.footer]]
 weight = 1
-url = "about/"
+url = "/about/"
 name = "About+Contact"
 
 [[menu.footer]]
 weight = 2
-url = "tags/"
+url = "/tags/"
 name = "Tags"
 
 [[menu.footer]]
 weight = 3
-url = "categories/"
+url = "/categories/"
 name = "Categories"
 
 #[[menu.footer]]
