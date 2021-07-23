@@ -5,7 +5,7 @@ image: "/images/post/post-1.jpg"
 date: 2021-07-22T18:38:35-05:00
 draft: false
 author: "Lucas Coble"
-tags: ["D&D", "Pathfinder", "5E"]
+tags: ["D&D" "Pathfinder" "5E"]
 categories: ["Everyone"]
 ---
 I was asked by a teenage co-worker, about a month ago, “Do you play Dungeons and Dragons?” I proceeded to tell him enthusiastically, “I do play D&D, I’ve been a game master for almost seven years!” He wanted to know what Dungeons and Dragons was because he was invited to be part of a campaign and had no clue what it was. I explained to him that it’s a collaborative game between a game master, the one player who acts as a referee of the rules and plays out the non-player characters, and a few players to go on adventures of small and epic proportions that use dice rolls to determine the results of your actions. After chatting about Dungeons and Dragons for about 30 minutes he said, “You must love Dungeons and Dragons.” I responded quickly with, “I love Dungeons and Dragons, but it’s not my favorite tabletop role-playing game anymore.” He looked so confused after I said that. After processing what I just uttered he asked, “So there are more games like Dungeons and Dragons?” I simply responded, “So much more.”
