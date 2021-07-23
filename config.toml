@@ -70,9 +70,9 @@ color_primary = "#FF5555"
 
 #################### default parameters ################################
 [params]
-logo = "images/logobig2.png"
+logo = "/images/logobig2.png"
 logo_height = "75px"
-favicon = "images/logo2.png"
+favicon = "/images/logo2.png"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
