@@ -1,0 +1,207 @@
+######################## default configuration ####################
+baseURL = ""
+title = "Dice And Drama"
+theme = "bookworm"
+# post pagination
+paginate = "5"
+# post excerpt
+summaryLength = "20"
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+# disqus short name
+disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
+
+############################# Modules ##############################
+[module.hugoVersion]
+extended = true
+min = "0.80.0"
+
+############################# Outputs ##############################
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup.goldmark.renderer]
+unsafe= true
+
+
+############################## Plugins ##############################
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/line-awesome/css/line-awesome.min.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css2?family=Mulish:wght@500;600;700;800;900&display=swap"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/instagram-feed/instagram-feed.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+
+# site variables
+[params.variables]
+font_primary = "Mulish"
+h1 = "64px"
+h1_lg = "52px"
+h1_md = "42px"
+h2 = "38px"
+h2_md = "30px"
+h3 = "30px"
+h3_md = "24px"
+h4 = "24px"
+h5 = "18px"
+h6 = "16px"
+white = "#212121"
+black = "#FFFFFF"
+dark = "#04B595" #747577
+semidark = "8be9fd"
+gray = "#FAFAFA" #152035
+light = "#04b595" #f1fa8c
+color_primary = "#FF5555"
+
+#################### default parameters ################################
+[params]
+logo = "images/logobig2.png"
+logo_height = "75px"
+favicon = "images/logo2.png"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# search
+search = true
+# main section
+mainSections = ["blog"]
+# copyright
+copyright = "Owned & Operated By [Lucas Coble](https://www.twitter.com/LucasCoble)"
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Instagram feed
+[params.instafeed]
+enable = false
+instagram_user = "bookworm"
+access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
+
+# Subscription
+[params.subscription]
+enable = false
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+title = "Subscribe for our monthly newsletter."
+input_placeholder = "Enter your email"
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 7
+
+
+############################# Main Menu ########################
+[[menu.main]]
+weight = 1
+url = "/"
+name = "Home"
+
+[[menu.main]]
+weight = 3
+url = "about"
+name = "About+Contact"
+
+[[menu.main]]
+weight = 2
+url = "blog"
+name = "Blog"
+
+#[[menu.main]]
+#weight = 4
+#url = "tags/"
+#name = "Tags"
+
+ #[[menu.main]]
+# weight = 6
+ #url = "#"
+# name = "Pages"
+ #hasChildren = true
+
+
+#  [[menu.main]]
+#  parent = "Pages"
+#  weight = 1
+#  name = "Author"
+
+#  [[menu.main]]
+#  parent = "Pages"
+#  weight = 2
+#  url = "tags/"
+#  name = "Tags"
+
+
+#  [[menu.main]]
+#  parent = "Pages"
+#  weight = 3
+#  url = "categories/"
+#  name = "Category"
+
+#  [[menu.main]]
+#  parent = "Pages"
+#  weight = 4
+#  url = "elements/"
+#  name = "Elements"
+
+#  [[menu.main]]
+#  parent = "Pages"
+#  weight = 5
+#  url = "privacy/"
+#  name = "Privacy"
+
+#  [[menu.main]]
+#  parent = "Pages"
+#  weight = 6
+#  url = "terms-conditions/"
+#  name = "Terms & Conditions"
+
+############################# Footer Menu ########################
+[[menu.footer]]
+weight = 1
+url = "about/"
+name = "About+Contact"
+
+[[menu.footer]]
+weight = 2
+url = "tags/"
+name = "Tags"
+
+[[menu.footer]]
+weight = 3
+url = "categories/"
+name = "Categories"
+
+#[[menu.footer]]
+#weight = 4
+#url = "terms-conditions/"
+#name = "Terms & Conditions"
+
+# Social Icons
+
+[[params.social]]
+url = "https://www.twitter.com/DiceAndDrama"
+icon = "lab la-twitter" # https://icons8.com/line-awesome
+
+[[params.social]]
+url = "https://www.instagram.com/DiceAndDrama"
+icon = "lab la-instagram" # https://icons8.com/line-awesome
