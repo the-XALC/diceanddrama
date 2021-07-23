@@ -3,7 +3,7 @@ title: "Outside the Walls of the Dungeons and Dragons Empire"
 description: "Outside the Walls of the Dungeons and Dragons Empire"
 image: "images/post/post-1.jpg"
 date: 2021-07-22T18:38:35-05:00
-draft: true
+draft: false
 author: "Lucas Coble"
 tags: ["D&D", "Pathfinder", "5E"]
 categories: ["Everyone"]
