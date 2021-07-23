@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://serene-franklin-0ddd7b.netlify.app/"
+baseURL = ""
 title = "Dice And Drama"
 theme = "bookworm"
 # post pagination
