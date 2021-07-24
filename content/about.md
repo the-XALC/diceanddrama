@@ -57,8 +57,6 @@ My favorite food is double cheeseburgers.
 
 I'm a natural rogue (or at least I like to believe that).
 
-I'm apart of the PC Master Race. May our temperatures be low and our framerates high.
-
 <hr>
 
 ### CONTACT INFO
