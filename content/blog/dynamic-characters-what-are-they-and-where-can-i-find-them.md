@@ -1,7 +1,7 @@
 +++
 author = "Lucas Coble"
 categories = ["Games"]
-date = 2021-08-08T01:00:00Z
+date = 2021-08-08T00:38:00Z
 description = "Exploring the different "
 image = "/uploads/post-2.jpg"
 tags = ["Dynamic", "Burning Wheel", "City of Mist", "Pathfinder", "D&D"]
