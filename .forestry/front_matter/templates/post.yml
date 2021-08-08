@@ -23,3 +23,5 @@ fields:
 - type: list
   name: categories
   label: categories
+pages:
+- content/blog/dynamic-characters-what-are-they-and-where-can-i-find-them.md
